@@ -1,7 +1,7 @@
 # ag-grid-table-react-js-pagination
 
 
-
+```
 import React, { Component, Fragment } from "react";
 import axios from "axios";
 import Breadcrumb from "../../../common/breadcrumb.component";
@@ -368,3 +368,4 @@ const mapStateToProps = state => ({
 });
 
 export default connect(mapStateToProps, { setAlert })(NoticeAdd);
+```
